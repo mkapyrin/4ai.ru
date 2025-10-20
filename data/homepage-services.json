@@ -1,0 +1,31 @@
+[
+  {
+    "id": "regular-tantra",
+    "title": "Регулярная Тантра",
+    "description": "Еженедельные практики каждый четверг",
+    "url": "/practices/regular-tantra",
+    "order": 1
+  },
+  {
+    "id": "workshops",
+    "title": "Ретриты и семинары",
+    "description": "Специальные события и интенсивы",
+    "url": "/practices/workshops",
+    "order": 2
+  },
+  {
+    "id": "couple-therapy",
+    "title": "Парная терапия",
+    "description": "Работа с отношениями и близостью",
+    "url": "/practices/couple-therapy",
+    "order": 3
+  },
+  {
+    "id": "individual-sessions",
+    "title": "Индивидуальные сессии",
+    "description": "Персональная телесная терапия",
+    "url": "/practices/individual-sessions",
+    "order": 4
+  }
+]
+

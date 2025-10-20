@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://4ai.ru/sitemap.xml
+
+# Disallow admin or sensitive areas
+Disallow: /admin/

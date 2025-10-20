@@ -1,0 +1,38 @@
+[
+  {
+    "id": "telegram",
+    "type": "telegram",
+    "value": "https://t.me/resursanons",
+    "label": "Telegram",
+    "order": 1
+  },
+  {
+    "id": "telegram-ai",
+    "type": "telegram2",
+    "value": "https://t.me/res_angel",
+    "label": "Наш ИИ-ассистент",
+    "order": 2
+  },
+  {
+    "id": "whatsapp",
+    "type": "whatsapp",
+    "value": "+79152350579",
+    "label": "WhatsApp",
+    "order": 3
+  },
+  {
+    "id": "vk",
+    "type": "vk",
+    "value": "vk.ru/resursnie",
+    "label": "ВКонтакте",
+    "order": 4
+  },
+  {
+    "id": "phone",
+    "type": "phone",
+    "value": "+79152370579",
+    "label": "Телефон",
+    "order": 5
+  }
+]
+
