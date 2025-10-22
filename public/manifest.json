@@ -1,0 +1,21 @@
+{
+  "name": "Центр Тантрических Практик и Семинаров в Москве",
+  "short_name": "Тантра Москва",
+  "description": "Тантрические практики и телесная терапия в Москве - мягкие шаги к гармонии",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ru",
+  "categories": ["lifestyle", "health", "education"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "256x256",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    }
+  ]
+}

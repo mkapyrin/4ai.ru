@@ -1,5 +1,30 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Environment Variables Setup
+
+Create a `.env.local` file in the root directory and add:
+
+```bash
+# Google Analytics
+NEXT_PUBLIC_GA_ID=G-VLPK3J2RE3
+
+# Yandex.Metrika
+NEXT_PUBLIC_YM_ID=100916718
+
+# Site Configuration
+NEXT_PUBLIC_SITE_URL=https://4ai.ru
+```
+
+## Features
+
+- ✅ **Server-Side Rendering (SSR)** - Full HTML generated on server for SEO
+- ✅ **Dynamic Meta Tags** - Unique title, description, and structured data for each page
+- ✅ **Progressive Web App** - manifest.json for PWA support
+- ✅ **Google Analytics 4** - Enhanced event tracking
+- ✅ **Yandex.Metrika** - Detailed visitor analytics
+- ✅ **TypeScript Support** - Type-safe development
+- ✅ **Tailwind CSS** - Modern styling framework
+
 ## Getting Started
 
 First, run the development server:
@@ -15,6 +40,21 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Version Management
+
+### Manual Version Updates
+```bash
+npm run version:patch    # 1.11.0 → 1.11.1
+npm run version:minor    # 1.11.0 → 1.12.0
+npm run version:major    # 1.11.0 → 2.0.0
+```
+
+### Automatic Version Increment
+The version automatically increments on every build and deploy:
+- Footer version updates in `src/components/Footer.tsx`
+- GitHub Actions automatically runs `npm run version:patch` before deployment
+- Each production deploy gets a new patch version (1.11.0 → 1.11.1 → 1.11.2...)
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
